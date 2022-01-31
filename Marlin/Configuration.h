@@ -555,14 +555,14 @@
 // Above this temperature the heater will be switched off.
 // This can protect components from overheating, but NOT from shorts and failures.
 // (Use MINTEMP for thermistor short/failure protection.)
-#define HEATER_0_MAXTEMP 290
-#define HEATER_1_MAXTEMP 275
-#define HEATER_2_MAXTEMP 275
-#define HEATER_3_MAXTEMP 275
-#define HEATER_4_MAXTEMP 275
-#define HEATER_5_MAXTEMP 275
-#define HEATER_6_MAXTEMP 275
-#define HEATER_7_MAXTEMP 275
+#define HEATER_0_MAXTEMP 300
+#define HEATER_1_MAXTEMP 290
+#define HEATER_2_MAXTEMP 290
+#define HEATER_3_MAXTEMP 290
+#define HEATER_4_MAXTEMP 290
+#define HEATER_5_MAXTEMP 290
+#define HEATER_6_MAXTEMP 290
+#define HEATER_7_MAXTEMP 290
 #define BED_MAXTEMP      150
 #define CHAMBER_MAXTEMP  60
 
@@ -2105,7 +2105,7 @@
  * SD Card support is disabled by default. If your controller has an SD slot,
  * you must uncomment the following option or it won't work.
  */
-//#define SDSUPPORT
+#define SDSUPPORT
 
 /**
  * SD CARD: ENABLE CRC
